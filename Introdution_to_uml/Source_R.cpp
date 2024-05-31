@@ -1,4 +1,4 @@
-//#include <iostream>
+п»ї//#include <iostream>
 //#include <conio.h>
 //#include <Windows.h>
 //#include <thread>
@@ -15,8 +15,8 @@
 //class Tank
 //{
 //private:
-//	const int volume;// объем бака является его характеристикой
-//	double fuel_level;//Уровень топлива отображает состояние бака
+//	const int volume;// РѕР±СЉРµРј Р±Р°РєР° СЏРІР»СЏРµС‚СЃСЏ РµРіРѕ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРѕР№
+//	double fuel_level;//РЈСЂРѕРІРµРЅСЊ С‚РѕРїР»РёРІР° РѕС‚РѕР±СЂР°Р¶Р°РµС‚ СЃРѕСЃС‚РѕСЏРЅРёРµ Р±Р°РєР°
 //public:
 //	Tank(int volume) :
 //		volume
@@ -81,7 +81,7 @@
 //	//	this->consumption = consumption;
 //	//}
 //
-//	//мне кажется что расход топлива должен высчитываться на основание нажатого газа в моменте игры
+//	//РјРЅРµ РєР°Р¶РµС‚СЃСЏ С‡С‚Рѕ СЂР°СЃС…РѕРґ С‚РѕРїР»РёРІР° РґРѕР»Р¶РµРЅ РІС‹СЃС‡РёС‚С‹РІР°С‚СЊСЃСЏ РЅР° РѕСЃРЅРѕРІР°РЅРёРµ РЅР°Р¶Р°С‚РѕРіРѕ РіР°Р·Р° РІ РјРѕРјРµРЅС‚Рµ РёРіСЂС‹
 //	double consumption1(double acceleration_percentage)
 //	{
 //		if (this->is_started == true)
@@ -99,7 +99,7 @@
 //		}
 //		else
 //		{
-//			cout << "Двигатель заглушен" << endl;
+//			cout << "Р”РІРёРіР°С‚РµР»СЊ Р·Р°РіР»СѓС€РµРЅ" << endl;
 //			return 0;
 //		}
 //
@@ -164,7 +164,7 @@
 //		if (control_thread.panel_thread.joinable())
 //			control_thread.panel_thread.join();
 //		system("CLS");
-//		cout << "Вы вышли из машины" << endl;
+//		cout << "Р’С‹ РІС‹С€Р»Рё РёР· РјР°С€РёРЅС‹" << endl;
 //	}
 //	void panel()
 //	{
@@ -200,26 +200,26 @@
 //	do
 //	{
 //		tank.info();
-//		cout << "Введите объем топлива ";
+//		cout << "Р’РІРµРґРёС‚Рµ РѕР±СЉРµРј С‚РѕРїР»РёРІР° ";
 //		cin >> fuel;
 //		tank.set_fuel_level(fuel);
 //	} while (fuel);*/
 //	double acceleration_percentage;
-//	a.start_engine();//заведем двигатель
+//	a.start_engine();//Р·Р°РІРµРґРµРј РґРІРёРіР°С‚РµР»СЊ
 //	if (a.started())
 //	{
-//		cout << "Двигатель - запущен" << endl;
+//		cout << "Р”РІРёРіР°С‚РµР»СЊ - Р·Р°РїСѓС‰РµРЅ" << endl;
 //	}
 //	else
 //	{
-//		cout << "Двигатель - заглушен" << endl;
+//		cout << "Р”РІРёРіР°С‚РµР»СЊ - Р·Р°РіР»СѓС€РµРЅ" << endl;
 //	}
 //
 //	do
 //	{
-//		cout << "Введите значение нажатия педали газа ";
+//		cout << "Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РЅР°Р¶Р°С‚РёСЏ РїРµРґР°Р»Рё РіР°Р·Р° ";
 //		cin >> acceleration_percentage;
-//		cout << "Расход двигателя " << a.consumption1(acceleration_percentage) << endl;
+//		cout << "Р Р°СЃС…РѕРґ РґРІРёРіР°С‚РµР»СЏ " << a.consumption1(acceleration_percentage) << endl;
 //
 //	} while (acceleration_percentage != -1);
 //#endif
